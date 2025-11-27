@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "FlowAI - Work Smarter, Not Harder",
-  description: "Stop wasting time on repetitive tasks. FlowAI learns your workflow and handles the boring stuff so you can focus on what matters.",
+  title: "TechHub - Premium Electronics at Unbeatable Prices",
+  description: "Shop authentic smartphones, headphones, smartwatches & more. 100% original products with warranty. Free 24-hour delivery. 50,000+ happy customers.",
 };
 
 export default function RootLayout({

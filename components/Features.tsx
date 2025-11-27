@@ -1,42 +1,42 @@
 "use client";
 
-import { Bot, Zap, Shield, BarChart3, Cloud, Users } from "lucide-react";
+import { Truck, Shield, Headphones, Package, CreditCard, RotateCcw } from "lucide-react";
 
 const features = [
   {
-    icon: Bot,
-    title: "Smart Automation",
-    description: "Train AI to handle your repetitive tasks. It learns from what you do and takes over the boring parts in minutes, not weeks.",
+    icon: Truck,
+    title: "24-Hour Delivery",
+    description: "Order today, use tomorrow. Free express shipping on orders above ₹999. Track your package in real-time.",
     color: "bg-purple-100 text-purple-600"
   },
   {
-    icon: Zap,
-    title: "Ridiculously Fast",
-    description: "We're talking milliseconds. Process thousands of tasks while you grab coffee. Our servers don't sleep (even if you do).",
-    color: "bg-yellow-100 text-yellow-600"
-  },
-  {
     icon: Shield,
-    title: "Fort Knox Security",
-    description: "Your data is encrypted, backed up, and protected. We take security seriously—SOC 2, GDPR, and all that jazz.",
+    title: "100% Authentic",
+    description: "Every product comes with original warranty and invoice. Zero tolerance for fakes—we guarantee it or your money back.",
     color: "bg-green-100 text-green-600"
   },
   {
-    icon: BarChart3,
-    title: "Insights That Matter",
-    description: "No fluff, just actionable data. See what's working, what's not, and where to focus your energy next.",
+    icon: Headphones,
+    title: "Expert Support",
+    description: "Need help choosing? Our tech experts are available 24/7 via chat or call. Real people who actually know their stuff.",
     color: "bg-blue-100 text-blue-600"
   },
   {
-    icon: Cloud,
-    title: "Scales With You",
-    description: "Start small, grow big. Our infrastructure handles everything from 10 to 10 million users without breaking a sweat.",
+    icon: Package,
+    title: "Secure Packaging",
+    description: "Triple-layer protection with tamper-proof seals. Your gadgets arrive exactly as they left our warehouse—perfect.",
+    color: "bg-yellow-100 text-yellow-600"
+  },
+  {
+    icon: CreditCard,
+    title: "Flexible Payments",
+    description: "Pay however you want—UPI, cards, EMI, or cash on delivery. No cost EMI available on all products above ₹5,000.",
     color: "bg-indigo-100 text-indigo-600"
   },
   {
-    icon: Users,
-    title: "Built for Teams",
-    description: "Everyone stays in sync. Share workflows, collaborate in real-time, and never ask 'wait, what version are we on?' again.",
+    icon: RotateCcw,
+    title: "Easy Returns",
+    description: "Changed your mind? No drama. 7-day return policy with instant refunds. Pickup from your doorstep, completely free.",
     color: "bg-pink-100 text-pink-600"
   }
 ];
@@ -48,11 +48,11 @@ export default function Features() {
         {/* Section header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">
-            Everything You Need,
-            <span className="gradient-text"> Nothing You Don't</span>
+            Why Shop
+            <span className="gradient-text"> With Us?</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            We built the features teams actually use, not a bloated mess of stuff you'll never touch.
+            We&apos;re not just another electronics store. Here&apos;s what makes us different.
           </p>
         </div>
 
@@ -75,7 +75,7 @@ export default function Features() {
         {/* Bottom CTA */}
         <div className="mt-16 text-center">
           <button className="px-8 py-4 bg-gray-900 text-white font-semibold rounded-full hover:bg-gray-800 hover:shadow-lg transition-all duration-300">
-            Explore All Features
+            Browse All Products
           </button>
         </div>
       </div>

@@ -16,41 +16,41 @@ export default function Hero() {
         {/* Badge */}
         <div className="inline-flex items-center gap-2 px-4 py-2 mb-8 bg-white/80 backdrop-blur-sm border border-purple-200 rounded-full shadow-sm animate-slide-up">
           <Sparkles className="w-4 h-4 text-purple-600" />
-          <span className="text-sm font-medium text-gray-700">🚀 Trusted by 10,000+ Teams</span>
+          <span className="text-sm font-medium text-gray-700">⚡ 50,000+ Happy Customers</span>
         </div>
 
         {/* Main heading */}
         <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-gray-900 mb-6 animate-fade-in">
-          Work Smarter, Not Harder
+          Premium Electronics
           <br />
-          <span className="gradient-text">AI That Gets You</span>
+          <span className="gradient-text">Unbeatable Prices</span>
         </h1>
 
         {/* Subtext */}
         <p className="text-xl sm:text-2xl text-gray-600 mb-10 max-w-3xl mx-auto animate-slide-up" style={{ animationDelay: '0.2s' }}>
-          Stop wasting hours on repetitive tasks. Our AI learns your workflow and handles the boring stuff, 
-          so you can focus on what actually matters.
+          Latest gadgets, smartwatches, headphones & more. Authentic products with warranty, 
+          delivered to your door in 24 hours.
         </p>
 
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-slide-up" style={{ animationDelay: '0.4s' }}>
           <button className="group px-8 py-4 bg-gradient-to-r from-purple-600 to-blue-600 text-white font-semibold rounded-full hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center gap-2">
-            Start Free Trial
+            Shop Now
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </button>
           <button className="px-8 py-4 bg-white text-gray-700 font-semibold rounded-full border-2 border-gray-200 hover:border-purple-600 hover:shadow-lg transition-all duration-300">
-            See How It Works
+            View Deals
           </button>
         </div>
 
         {/* Social proof */}
         <div className="mt-16 animate-fade-in" style={{ animationDelay: '0.6s' }}>
-          <p className="text-sm text-gray-500 mb-4">Used daily by teams at</p>
+          <p className="text-sm text-gray-500 mb-4">Authorized dealer for</p>
           <div className="flex flex-wrap justify-center items-center gap-8 opacity-60">
-            <div className="text-2xl font-bold text-gray-400">Shopify</div>
-            <div className="text-2xl font-bold text-gray-400">Stripe</div>
-            <div className="text-2xl font-bold text-gray-400">Notion</div>
-            <div className="text-2xl font-bold text-gray-400">Figma</div>
+            <div className="text-2xl font-bold text-gray-400">Apple</div>
+            <div className="text-2xl font-bold text-gray-400">Samsung</div>
+            <div className="text-2xl font-bold text-gray-400">Sony</div>
+            <div className="text-2xl font-bold text-gray-400">JBL</div>
           </div>
         </div>
       </div>

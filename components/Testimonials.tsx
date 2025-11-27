@@ -4,24 +4,24 @@ import { Star, Quote } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Alex Rivera",
-    role: "Founder @ GrowthLabs",
-    image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Alex",
-    content: "Honestly didn't expect it to be this good. We went from spending 15 hours a week on manual tasks to like... 2 hours. My team actually has time to think now.",
+    name: "Priya Sharma",
+    role: "Tech Enthusiast, Mumbai",
+    image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Priya",
+    content: "Ordered AirPods Pro on Monday night, got them Tuesday morning! Original product with proper invoice. Plus the delivery guy waited while I checked everything. 10/10 service.",
     rating: 5
   },
   {
-    name: "Jordan Kim",
-    role: "Engineering Lead @ Pixel Studios",
-    image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Jordan",
-    content: "I've tried a bunch of AI tools and most are meh. This one actually works. Setup took 10 minutes and we were already saving time on day one. No joke.",
+    name: "Rahul Verma",
+    role: "Gamer, Bangalore",
+    image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Rahul",
+    content: "Best prices I've found online for gaming headphones. Got the Sony XM5 cheaper than Amazon sale price. Arrived in perfect condition with all accessories. Will definitely buy again.",
     rating: 5
   },
   {
-    name: "Sam Patel",
-    role: "Operations @ CloudScale",
-    image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Sam",
-    content: "The support team replies in minutes, not days. And the product itself? It just works. No complicated setup, no 50-page manual. Install, configure, done.",
+    name: "Anjali Mehta",
+    role: "Student, Delhi",
+    image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Anjali",
+    content: "Bought a smartwatch and had issues with pairing. Called support at 11 PM and they actually picked up! Helped me fix it in 5 minutes. Customer service is really good here.",
     rating: 5
   }
 ];
@@ -33,11 +33,11 @@ export default function Testimonials() {
         {/* Section header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">
-            Don't Just Take
-            <span className="gradient-text"> Our Word</span>
+            Real Reviews From
+            <span className="gradient-text"> Real Customers</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Real feedback from real people who use this every single day.
+            See what our customers are saying about their shopping experience.
           </p>
         </div>
 
@@ -62,11 +62,12 @@ export default function Testimonials() {
 
               {/* Content */}
               <p className="text-gray-700 mb-6 leading-relaxed">
-                "{testimonial.content}"
+                &ldquo;{testimonial.content}&rdquo;
               </p>
 
               {/* Author */}
               <div className="flex items-center gap-4">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src={testimonial.image}
                   alt={testimonial.name}
@@ -84,19 +85,19 @@ export default function Testimonials() {
         {/* Stats section */}
         <div className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-8">
           <div className="text-center">
-            <p className="text-4xl font-bold text-purple-600 mb-2">10,000+</p>
-            <p className="text-gray-600">Active Users</p>
+            <p className="text-4xl font-bold text-purple-600 mb-2">50,000+</p>
+            <p className="text-gray-600">Happy Customers</p>
           </div>
           <div className="text-center">
-            <p className="text-4xl font-bold text-purple-600 mb-2">99.9%</p>
-            <p className="text-gray-600">Uptime</p>
+            <p className="text-4xl font-bold text-purple-600 mb-2">24 Hrs</p>
+            <p className="text-gray-600">Fast Delivery</p>
           </div>
           <div className="text-center">
-            <p className="text-4xl font-bold text-purple-600 mb-2">50M+</p>
-            <p className="text-gray-600">Tasks Automated</p>
+            <p className="text-4xl font-bold text-purple-600 mb-2">5000+</p>
+            <p className="text-gray-600">Products</p>
           </div>
           <div className="text-center">
-            <p className="text-4xl font-bold text-purple-600 mb-2">4.9/5</p>
+            <p className="text-4xl font-bold text-purple-600 mb-2">4.8/5</p>
             <p className="text-gray-600">Customer Rating</p>
           </div>
         </div>

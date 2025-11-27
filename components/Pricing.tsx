@@ -4,57 +4,57 @@ import { Check, Zap } from "lucide-react";
 
 const plans = [
   {
-    name: "Solo",
-    price: "$19",
-    period: "/mo",
-    description: "For freelancers and solo founders testing the waters.",
+    name: "Bestsellers",
+    price: "₹999",
+    period: " onwards",
+    description: "Popular gadgets everyone's buying right now.",
     features: [
-      "Just you (1 seat)",
-      "2,000 tasks/month",
-      "Basic dashboards",
-      "Email support (24h response)",
-      "10GB storage",
-      "API docs access"
+      "Wireless earbuds & headphones",
+      "Smart bands & fitness trackers",
+      "Power banks & chargers",
+      "Phone accessories",
+      "Original warranty",
+      "Free delivery"
     ],
-    cta: "Try 14 Days Free",
+    cta: "Shop Bestsellers",
     popular: false
   },
   {
-    name: "Team",
-    price: "$79",
-    period: "/mo",
-    description: "For small teams serious about getting stuff done.",
+    name: "Premium Range",
+    price: "₹5,999",
+    period: " onwards",
+    description: "High-end electronics for the tech enthusiasts.",
     features: [
-      "Up to 15 people",
-      "20,000 tasks/month",
-      "Full analytics suite",
-      "Priority support (2h response)",
-      "100GB storage",
-      "Full API access",
-      "Custom workflows",
-      "SSO & security tools"
+      "Latest smartwatches",
+      "Noise-cancelling headphones",
+      "Gaming accessories",
+      "Smart home devices",
+      "2-year warranty",
+      "Priority delivery",
+      "Free installation support",
+      "No cost EMI available"
     ],
-    cta: "Start Free Trial",
+    cta: "Explore Premium",
     popular: true
   },
   {
-    name: "Enterprise",
-    price: "Let's Talk",
-    period: "",
-    description: "For companies with unique needs and bigger budgets.",
+    name: "Flagship Store",
+    price: "₹15,999",
+    period: "+",
+    description: "Top-tier products from Apple, Samsung, Sony & more.",
     features: [
-      "Unlimited everything",
-      "No task limits (seriously)",
-      "White-label options",
-      "Dedicated account manager",
-      "As much storage as you need",
-      "Custom API endpoints",
-      "Build your own integrations",
-      "Compliance & audit logs",
-      "99.99% uptime SLA",
-      "Self-hosted option available"
+      "Latest flagship phones",
+      "Premium laptops & tablets",
+      "Professional cameras",
+      "High-end audio systems",
+      "Extended warranty options",
+      "White glove delivery",
+      "Personal tech consultant",
+      "Trade-in programs",
+      "VIP support line",
+      "Exclusive launch access"
     ],
-    cta: "Book a Call",
+    cta: "View Flagship",
     popular: false
   }
 ];
@@ -66,11 +66,11 @@ export default function Pricing() {
         {/* Section header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">
-            Pricing That Actually
-            <span className="gradient-text"> Makes Sense</span>
+            Shop By
+            <span className="gradient-text"> Your Budget</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            No hidden fees. No surprise charges. Just straightforward pricing that grows with you.
+            Quality electronics for every budget. From affordable basics to premium flagship devices.
           </p>
         </div>
 
@@ -144,10 +144,10 @@ export default function Pricing() {
         {/* Additional info */}
         <div className="mt-16 text-center">
           <p className="text-gray-600 mb-4">
-            Every plan includes SSL, daily backups, and 99.9% uptime (we'll credit you if we miss it)
+            All products include original warranty, secure packaging, and free returns within 7 days
           </p>
           <p className="text-sm text-gray-500">
-            Questions about pricing? <a href="#" className="text-purple-600 font-semibold hover:underline">Chat with us</a> — we're humans, not bots
+            Need help choosing? <a href="#" className="text-purple-600 font-semibold hover:underline">Talk to our experts</a> — available 24/7
           </p>
         </div>
       </div>
