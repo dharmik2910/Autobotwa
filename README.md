@@ -43,22 +43,6 @@ npm run dev
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## 🚀 Deployment
-
-### Deploy to Vercel
-
-1. Push your code to GitHub
-2. Go to [Vercel](https://vercel.com)
-3. Click "Import Project"
-4. Select your repository
-5. Click "Deploy"
-
-Or use the Vercel CLI:
-
-```bash
-npm install -g vercel
-vercel
-```
 
 ## 📄 Project Structure
 
@@ -92,41 +76,4 @@ The following components were enhanced and refined using Vercel v0 for optimal e
 5. **Overall Responsiveness**: Mobile-first design ensures seamless shopping experience on all devices. Breakpoints and animations were fine-tuned using v0's responsive design suggestions.
 
 6. **E-commerce Optimization**: Purple-to-blue gradient theme creates trust and excitement. Color combinations were tested using v0's design system for optimal conversion and visual appeal in electronics retail.
-
-## 📝 Customization
-
-### Changing Colors
-
-Edit the Tailwind configuration in `tailwind.config.ts`:
-
-```typescript
-theme: {
-  extend: {
-    colors: {
-      // Add your custom colors
-    }
-  }
-}
-```
-
-### Updating Content
-
-- Edit section content in respective component files in `/components`
-- Update metadata in `app/layout.tsx`
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📧 Contact
-
-For any questions or feedback, please reach out through the contact section on the website.
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
-
-**TechHub Electronics** - Made with ❤️ for tech lovers | Built with Next.js & Tailwind CSS
 
